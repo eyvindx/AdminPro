@@ -1,3 +1,7 @@
 <p>
-  graficas1 works!
+
 </p>
+<p *ngIf="false; else template">Gato</p>
+<ng-template #template>
+    <div>hola<i class="fa fa-chevron-circle-down"></i></div>
+</ng-template>

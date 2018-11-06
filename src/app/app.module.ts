@@ -4,11 +4,13 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './login/register.component';
 
-//rutas
+// rutas
 import { APP_ROUTES } from './app.routes';
 
-//modulos personalizados
+// modulos personalizados
 import { PagesModule } from './pages/pages.module';
+
+
 
 
 @NgModule({
@@ -16,6 +18,7 @@ import { PagesModule } from './pages/pages.module';
     AppComponent,
     LoginComponent,
     RegisterComponent
+
   ],
   imports: [
     BrowserModule,

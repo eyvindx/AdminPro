@@ -10,6 +10,6 @@ const app_routes: Routes = [
     { path: 'login', component: LoginComponent },
     { path: 'register', component: RegisterComponent },
     { path: '**', component: NopagefoundComponent }
-]
+];
 
-export const APP_ROUTES = RouterModule.forRoot(app_routes,{ useHash: true })
+export const APP_ROUTES = RouterModule.forRoot(app_routes, { useHash: true });
